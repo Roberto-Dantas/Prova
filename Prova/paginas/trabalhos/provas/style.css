@@ -1,0 +1,308 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    list-style: none; 
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, sans-serif;
+}
+.dark-mode{
+    color:#fff;
+    background: #000;
+}
+@media(max-width: 600px) { 
+    .conteudo{
+        width: 80%;
+        margin: 25px 10% 25px 10%;
+        padding:10%;
+        border-radius: 10px;
+        background:  #55a39e;
+    }
+    .quest{
+        padding: 10%;
+        border-radius: 10px;
+        text-align: center;
+        background: #e2e2e2;
+        color: #001113;
+        box-shadow:10px 15px 50px #000;
+    }
+    .quest h3{
+        color: #321208;
+    }
+    .quest button{
+        padding: 8px;
+        background: #321208;
+        color: #f3eae8;
+        border-radius: 5px;
+    }
+    .numQ{
+       display:none;
+       color:#321208;
+    }
+    .quests{
+        padding: 15%;
+        border-radius: 10px;
+        color: #001113;
+        background: #e2e2e2;
+        box-shadow:10px 20px 50px #000;
+        display:none;
+    }
+    .quests h4{
+        text-align:center;
+        color: #321208;
+    }
+    .inputs{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .inputs li{
+        width: 100% -10px;
+        padding: 5px;
+        margin:5px;
+        display:flex;
+    }
+    .inputs li:hover{
+        background:#80b5b5;
+    }
+    .inputs input{
+        margin-right: 10px;
+    }
+    .botoesQuest{
+        width: 100%;
+        padding:10px 0 10px 0;
+        align-content: flex-end;
+        flex-flow: column wrap;
+        display:flex;    
+    }
+    .botoesQuest div{
+        display:flex;
+    }
+    .botoesQuest button{
+        padding: 5px;
+        margin-left:8px;
+        background: #321208;
+        color: #f3eae8;
+        border-radius: 3px;    
+    }
+    #enviar{
+        margin-top: 10px;
+        display: none;
+    }
+    #enviar button{
+        padding: 5px;    
+        width: 100%;
+        background: #321208;
+        color: #f3eae8;
+        border-radius: 3px;
+    }
+    .respostas{
+        display: none;
+        padding: 10%;
+        border-radius: 10px;
+        color: #001113;
+        background: #55a39e;
+        box-shadow:10px 20px 50px #000;
+    }
+    .respostas h2{
+        color: #321208;
+    }
+    .respostas p{
+        text-align:center;
+        font-weight:600;
+    }
+    .resp{
+        padding: 6%;
+        border-radius: 10px;
+        color: #001113;
+        background: #e2e2e2;
+        box-shadow:10px 20px 50px #000;
+    }
+    .resp ul{
+        
+    }
+    .resp h3{
+        margin:10px;
+        color: #321208;
+    }
+    .resp li{
+        width: 90%;
+        margin-left:5%;
+        margin-bottom:5px;
+        padding:5px;
+        display:flex;
+    }
+    .errada{
+        color: red;
+        border-radius: 3px;
+        background: #55a39e;
+        text-decoration: line-through;
+    }
+    .escolhida{
+        border-radius: 3px;
+        background: #55a39e;
+    }
+    .correta{
+        color:green;
+        border-radius: 3px;
+    }
+    a{
+        cursor:pointer;
+        color:#000;
+        font-size: 20px;
+    }
+}
+@media(min-width: 600px) { 
+    .conteudo{
+        width: 80%;
+        margin: 25px 10% 0 10%;
+        padding: 10% 20% 10% 20%;
+        border-radius: 10px;
+        background:  #55a39e;
+    }
+    .quest{
+        padding: 10% 15% 10% 15%;
+        border-radius: 10px;
+        text-align: center;
+        background: #e2e2e2;
+        color: #001113;
+        box-shadow:10px 15px 50px #000;
+        font-size: 20px;
+    }
+    .quest h3{
+        color: #321208;
+        font-size: 23px;
+    }
+    .quest button{
+        padding: 10px;
+        background: #321208;
+        color: #f3eae8;
+        border-radius: 5px;
+    }
+    .numQ{
+       display:none;
+       color:#321208;
+       font-size: 23px;
+    }
+    .quests{
+        padding: 15%;
+        border-radius: 10px;
+        color: #001113;
+        background: #e2e2e2;
+        box-shadow:10px 20px 50px #000;
+        display:none;
+    }
+    .quests h4{
+        text-align:center;
+        color: #321208;
+        font-size: 20px;
+    }
+    .inputs{
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+    .inputs li{
+        width: 100% -10px;
+        padding: 5px;
+        margin:5px;
+        display:flex;
+        font-size: 17px;
+    }
+    .inputs li:hover{
+        background:#80b5b5;
+    }
+    .inputs input{
+        margin-right: 10px;
+    }
+    .botoesQuest{
+        width: 100%;
+        padding:10px 0 10px 0;
+        align-content: flex-end;
+        flex-flow: column wrap;
+        display:flex;    
+    }
+    .botoesQuest div{
+        display:flex;
+    }
+    .botoesQuest button{
+        padding: 10px;
+        margin-left:8px;
+        font-size: 16px;
+        background: #321208;
+        color: #f3eae8;
+        border-radius: 3px;    
+    }
+    #enviar{
+        margin-top: 10px;
+        display: none;
+    }
+    #enviar button{
+        padding: 10px;    
+        width: 100%;
+        background: #321208;
+        color: #f3eae8;
+        border-radius: 3px;
+    }
+    .respostas{
+        display: none;
+        padding: 10%;
+        border-radius: 10px;
+        color: #001113;
+        background: #55a39e;
+        box-shadow:10px 20px 50px #000;
+    }
+    .respostas h2{
+        color: #321208;
+        font-size: 30px;
+    }
+    .respostas p{
+        text-align:center;
+        font-weight:600;
+        font-size: 23px;
+    }
+    .respostasCaixa{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .resp{
+        padding: 10%;
+        border-radius: 10px;
+        color: #001113;
+        background: #e2e2e2;
+        box-shadow:10px 20px 50px #000;
+    }
+    .resp ul{
+        
+    }
+    .resp h3{
+        margin:10px;
+        color: #321208;
+    }
+    .resp li{
+        width: 100%;
+        margin-bottom:10px;
+        padding:7px;
+        display:flex;
+    }
+    .errada{
+        color: red;
+        border-radius: 3px;
+        background: #55a39e;
+        text-decoration: line-through;
+    }
+    .escolhida{
+        border-radius: 3px;
+        background: #55a39e;
+    }
+    .correta{
+        color:green;
+        border-radius: 3px;
+    }
+    a{
+        cursor:pointer;
+        color:#000;
+        font-size: 30px;
+    }
+}

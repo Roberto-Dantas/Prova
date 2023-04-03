@@ -1,0 +1,22 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    list-style: none; 
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, sans-serif;
+}
+summary{
+    font-size: 17px;
+    font-weight:650;
+    color: blue;
+}
+ul{
+    margin:5px;
+}
+ul li{
+    margin:3px;
+}

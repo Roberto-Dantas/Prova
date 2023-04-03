@@ -1,0 +1,118 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    list-style: none; 
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, sans-serif;
+    color:#fff;
+}
+
+@media(max-width: 600px) { 
+    .tela{
+        width: 80%;
+        margin:10% 10% 10% 10%;
+        padding:10%;
+        background: ;
+        border-radius: 20px;
+        border:5px solid #000;
+        font-size: 23px;
+        color:#000;
+    }
+    .centralizando{
+        height: 11%;
+        padding:5%;
+    }
+    .login{   
+        padding: 25px 0px 25px 0px;
+        text-align:center;
+    }
+    .login label{
+        font-weight:bold;
+    }
+    .login input{
+        padding: 10px;
+        width: 80%;
+        font-size: 16px;
+        text-align: center;
+        color:#000;
+        background: none;
+        border-bottom: 2px solid #000; 
+    }
+    .usuario{
+        margin-bottom: 20px;
+        padding: 10px;
+    }   
+    .senha{
+        margin-bottom: 20px;
+        padding: 10px;
+    }    
+    .botao_logar{
+        margin:20px 0px 20px 0px;
+        text-align:center;
+    }
+    .botao_logar button{
+        width: 70%;
+        font-size: 22px;
+        padding: 10px;
+        border-radius: 10px;
+        color:#fff;
+        background: #000;
+    }    
+}
+
+@media(min-width: 600px) { 
+    .tela{
+        width: 70%;
+        margin:2% 15% 0 15%;
+        padding:10%;
+        background: ;
+        border-radius: 20px;
+        border:5px solid #000;
+        font-size: 38px;
+        color:#000;
+    }
+    .centralizando{
+        height: 11%;
+        padding:5%;
+    }
+    .login{   
+        padding: 50px 10px 50px 10px;
+        text-align:center;
+    }
+    .login label{
+        font-weight:bold;
+    }
+    .login input{
+        padding: 10px;
+        width: 80%;
+        font-size: 35px;
+        text-align: center;
+        color:#000;
+        background: none;
+        border-bottom: 2px solid #000; 
+    }
+    .usuario{
+        margin-bottom: 25px;
+        padding: 10px;
+    }
+    .senha{
+        margin-bottom: 25px;
+        padding: 10px;
+    }    
+    .botao_logar{
+        margin:50px 0px 50px 0px;
+        text-align:center;
+    }
+    .botao_logar button{
+        width: 70%;
+        font-size: 30px;
+        padding: 20px;
+        border-radius: 10px;
+        color:#fff;
+        background: #000;
+    }    
+}
